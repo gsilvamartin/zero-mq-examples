@@ -17,9 +17,9 @@ public class ZeroMQPairSocket2
     /// </summary>
     public static void RegisterZeroMQPairSocket()
     {
-        using (var pairSocket1 = new PairSocket())
+        using (var pairSocket2 = new PairSocket())
         {
-            pairSocket1.Bind(_pairSocket2Url);
+            pairSocket2.Bind(_pairSocket2Url);
 
             Console.WriteLine("PAIR Socket 2: Ready to send and receive messages.");
 
@@ -28,11 +28,11 @@ public class ZeroMQPairSocket2
                 string messageToSend = $"Message from Socket 2, Iteration {i}";
                 Console.WriteLine($"PAIR Socket 2: Sending: {messageToSend}");
 
-                pairSocket1.SendFrame(messageToSend);
+                pairSocket2.SendFrame(messageToSend);
 
                 Thread.Sleep(1000);
 
-                string receivedMessage = pairSocket1.ReceiveFrameString();
+                string receivedMessage = pairSocket2.ReceiveFrameString();
                 Console.WriteLine($"PAIR Socket 2: Received: {receivedMessage}");
             }
 

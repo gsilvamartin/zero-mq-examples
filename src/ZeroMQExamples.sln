@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroMQ.ReqRep", "ZeroMQ.Req
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroMQ.PushPull", "ZeroMQ.PushPull\ZeroMQ.PushPull.csproj", "{F7E99F66-9F47-4133-842A-190DC2ACD3B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZeroMQ.PairSocket", "ZeroMQ.PairSocket\ZeroMQ.PairSocket.csproj", "{171031A2-E43E-4F0A-B20D-E2C8F2A12168}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F7E99F66-9F47-4133-842A-190DC2ACD3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7E99F66-9F47-4133-842A-190DC2ACD3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E99F66-9F47-4133-842A-190DC2ACD3B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171031A2-E43E-4F0A-B20D-E2C8F2A12168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171031A2-E43E-4F0A-B20D-E2C8F2A12168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171031A2-E43E-4F0A-B20D-E2C8F2A12168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171031A2-E43E-4F0A-B20D-E2C8F2A12168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
