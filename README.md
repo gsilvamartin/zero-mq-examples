@@ -18,6 +18,7 @@ Each communication pattern is implemented in a separate project within this solu
 - `ZeroMQ.PubSub`: Example implementation of the PUB-SUB pattern.
 - `ZeroMQ.ReqRep`: Example implementation of the REQ-REP pattern.
 - `ZeroMQ.PushPull`: Example implementation of the PUSH-PULL pattern.
+- `ZeroMQ.PairSocket`: Example implementation of the PUSH-PULL pattern.
 
 ## How to Run the Examples
 
