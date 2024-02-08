@@ -15,9 +15,9 @@ NetMQ is a port of ZeroMQ for the .NET platform. It provides a powerful messagin
 
 Each communication pattern is implemented in a separate project within this solution. See below for the available projects:
 
-- `zeromq-netmq-examples.PubSub`: Example implementation of the PUB-SUB pattern.
-- `zeromq-netmq-examples.ReqRep`: Example implementation of the REQ-REP pattern.
-- `zeromq-netmq-examples.PushPull`: Example implementation of the PUSH-PULL pattern.
+- `ZeroMQ.PubSub`: Example implementation of the PUB-SUB pattern.
+- `ZeroMQ.ReqRep`: Example implementation of the REQ-REP pattern.
+- `ZeroMQ.PushPull`: Example implementation of the PUSH-PULL pattern.
 
 ## How to Run the Examples
 
