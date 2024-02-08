@@ -8,10 +8,16 @@ using System.Threading.Tasks;
 
 namespace ZeroMQ.PubSub;
 
+/// <summary>
+/// Represents a ZeroMQ PUB-SUB pattern publisher.
+/// </summary>
 public class ZeroMQPubSubPublisher
 {
     private static readonly string _publisherUrl = "tcp://127.0.0.1:5556";
 
+    /// <summary>
+    /// Registers the ZeroMQ publisher and starts sending messages in a PUB-SUB pattern.
+    /// </summary>
     public static void RegisterZeroMQPublisher()
     {
         using (var publisher = new PublisherSocket())
